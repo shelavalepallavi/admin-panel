@@ -12,3 +12,15 @@ A basic **Admin Panel** built using **Node.js**, **Express**, and **MongoDB**. T
 - 🔐 Role-based access (admin only)
 - 🧩 RESTful API structure
 - 💡 Clean and scalable code structure
+
+
+📁 Project Structure
+```
+admin-panel/
+├── controllers/       # Route logic
+├── models/            # Mongoose schemas
+├── routes/            # API endpoints
+├── .env               # Environment variables
+└── server.js          # Entry point
+
+```
