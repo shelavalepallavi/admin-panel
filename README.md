@@ -6,7 +6,7 @@ A basic **Admin Panel** built using **Node.js**, **Express**, and **MongoDB**. T
 
 ## 🚀 Features
 
-- ✅ Admin login/logout with authentication
+- ✅ Admin login/logout
 - 📊 Dashboard with basic analytics (optional)
 - 👥 User management (Create, Read, Update, Delete)
 - 🔐 Role-based access (admin only)
