@@ -9,11 +9,11 @@ const app = express()
 connectDB()
 
 app.use(express.json());
-app.use(cors())
+app.use(cors());
 
 app.get('/', (req,res) => { 
   res.send('server started')
-})
+});
 
 app.use('/api/user', userRoute)
 
