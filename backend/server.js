@@ -3,6 +3,7 @@ const cors = require('cors')
 // require('dotenv').config();
 const connectDB = require('./config/db.js')
 const userRoute = require('./routes/userRoute.js')
+const PORT = 3000
 
 const app = express()
 connectDB()
@@ -16,4 +17,4 @@ app.get('/', (req,res) => {
 
 app.use('/api/user', userRoute)
 
-app.listen(3000, () => console.log('server started on 3000'))
+app.listen(PORT, () => console.log('server started on 3000'))
