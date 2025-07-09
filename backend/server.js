@@ -17,4 +17,4 @@ app.get('/', (req,res) => {
 
 app.use('/api/user', userRoute)
 
-app.listen(PORT, () => console.log('server started on 3000'))
+app.listen(PORT, () => console.log(`server started on http://localhost:${PORT}`))
