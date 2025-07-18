@@ -15,6 +15,7 @@ app.get('/', (req,res) => {
   res.send('server started')
 });
 
+
 app.use('/api/user', userRoute)
 
 app.listen(PORT, () => console.log(`server started on http://localhost:${PORT}`))
