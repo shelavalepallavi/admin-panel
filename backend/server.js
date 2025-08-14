@@ -7,7 +7,7 @@ const PORT = 3000
 const app = express()
 connectDB()
 
-app.use(express.json());
+app.use(express.json());  
 app.use(cors());
 
 app.get('/', (req,res) => { 
